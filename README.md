@@ -1,1 +1,3 @@
-# graph-auth
+# Authentication in GraphQL, PassportJS, Redis
+
+
