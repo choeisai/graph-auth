@@ -1,0 +1,35 @@
+{
+  "name": "graph-auth",
+  "version": "0.0.1",
+  "description": "Graphql auth boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karrung/graph-auth.git"
+  },
+  "keywords": [
+    "graphql",
+    "authentication"
+  ],
+  "author": "Chalermrat Srinara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karrung/graph-auth/issues"
+  },
+  "homepage": "https://github.com/karrung/graph-auth#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "connect-redis": "^3.2.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "express-graphql": "^0.6.3",
+    "express-session": "^1.15.1",
+    "graphql": "^0.9.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
